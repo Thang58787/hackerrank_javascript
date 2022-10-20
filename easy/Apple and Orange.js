@@ -1,17 +1,17 @@
 // https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=false
-// 2 test cases passed
+// passed
 
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
     let appleNum = 0, orangeNum = 0;
     for (let i = 0; i < apples.length; i++) {
         apples[i] += a;
-        if (apples[i] >= 7 && apples[i] <= 11) {
+        if (apples[i] >= s && apples[i] <= t) {
             appleNum++;
         }
     }
     for (let i = 0; i < oranges.length; i++) {
         oranges[i] += b;
-        if (oranges[i] >= 7 && oranges[i] <= 11) {
+        if (oranges[i] >= s && oranges[i] <= t) {
             orangeNum++;
         }
     }
@@ -19,3 +19,5 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
     console.log(orangeNum);
 }
 
+console.log(1);
+console.log(2);
