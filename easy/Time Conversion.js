@@ -21,4 +21,3 @@ function timeConversion(s) {
 
 console.log(timeConversion("07:05:45PM")); // "19:05:45"
 console.log(timeConversion("12:40:22AM")); // "00:40:22"
-
